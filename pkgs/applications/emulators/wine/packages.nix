@@ -108,7 +108,7 @@ in
       ];
       geckos = [gecko64];
       monos = [mono];
-      configureFlags = ["--enable-archs=x86_64,i386,arm64ec,aarch64"];
+      configureFlags = ["--enable-archs=x86_64,i386,aarch64"];
       platforms = [
         "x86_64-linux"
         "x86_64-darwin"
