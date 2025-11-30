@@ -12,7 +12,7 @@
   platforms,
   bison,
   flex,
-  llvm,
+  llvmPackages_latest,
   fontforge,
   gettext,
   makeWrapper,
@@ -94,7 +94,7 @@ in
             fontforge
             makeWrapper
             pkg-config
-            llvm
+            llvmPackages_latest.llvm
           ]
           ++ lib.optional gettextSupport gettext
           ++ lib.optionals mingwSupport (
